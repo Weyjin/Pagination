@@ -1,0 +1,183 @@
+ul.pagination{
+  width:100%;
+  line-height:35px;
+  user-select:none;
+}
+ul.pagination li{
+  display:inline-block;
+  padding-left:15px;
+  padding-right:15px;
+  height:100%;
+  line-height:inherit;
+  border:1px solid #cfcaca;
+  border-radius:4px;
+  text-align:center;
+  margin:0;
+  margin-left:6px;
+  }
+
+ul.pagination li a{
+  width:100%;
+  height:100%;
+  
+  display:block;
+  line-height:inherit;
+  color:inherit;
+  text-decoration:none;
+}
+
+
+ul.pagination li.available:hover{
+  background:#0288d1;
+  color:#fff;
+  cursor:pointer;
+}
+
+ul.pagination li.previous-available:hover,ul.pagination li.next-available:hover{
+  color:#0288d178;
+  cursor:pointer;
+}
+ul.pagination li.previous-available,ul.pagination li.next-available{
+  color:#0288d1;
+}
+ul.pagination li.info{
+  color:#a49f9f;
+}
+ul.pagination li.info span{
+  position:relative;
+  bottom:-5px;
+}
+
+ul.pagination li.active{
+  background:#0288d1;
+  color:#fff;
+}
+
+ul.pagination li.available{
+  color:#0288d1;
+}
+ul.pagination li.cyan{
+   color:#00bcd4;
+}
+ul.pagination li.cyan-background{
+   background:#00bcd4;
+
+}
+ul.pagination li.cyan:hover{
+ background:#00bcd4;
+  color:#fff;
+  cursor:pointer;
+}
+ul.pagination li.teal{
+   color:#009688;
+}
+ul.pagination li.teal-background{
+   background:#009688;
+
+}
+ul.pagination li.teal:hover{
+ background:#009688;
+  color:#fff;
+  cursor:pointer;
+}
+ul.pagination li.orange{
+   color:#ff9800;
+}
+ul.pagination li.orange-background{
+   background:#ff9800;
+
+}
+ul.pagination li.orange:hover{
+ background:#ff9800;
+  color:#fff;
+  cursor:pointer;
+}
+ul.pagination li.grey{
+   color:#607d8b;
+}
+ul.pagination li.grey-background{
+   background:#607d8b;
+
+}
+ul.pagination li.grey:hover{
+ background:#607d8b;
+  color:#fff;
+  cursor:pointer;
+}
+ul.pagination li.pink{
+   color:#e91e63;
+}
+ul.pagination li.pink-background{
+   background:#e91e63;
+
+}
+ul.pagination li.pink:hover{
+ background:#e91e63;
+  color:#fff;
+  cursor:pointer;
+}
+ul.pagination li.purple{
+   color:#9c24b0;
+}
+ul.pagination li.purple-background{
+   background:#9c24b0;
+
+}
+ul.pagination li.purple:hover{
+ background:#9c24b0;
+  color:#fff;
+  cursor:pointer;
+}
+ul.pagination li.deep-purple{
+   color:#673ab7;
+}
+ul.pagination li.deep-purple-background{
+   background:#673ab7;
+
+}
+ul.pagination li.deep-purple:hover{
+ background:#673ab7;
+  color:#fff;
+  cursor:pointer;
+}
+ul.pagination li.red{
+   color:#e51c23;
+}
+ul.pagination li.red-background{
+   background:#e51c23;
+
+}
+ul.pagination li.red:hover{
+ background:#e51c23;
+  color:#fff;
+  cursor:pointer;
+}
+ul.pagination li.green{
+   color:#259b24;
+}
+ul.pagination li.green-background{
+   background:#259b24;
+
+}
+ul.pagination li.green:hover{
+ background:#259b24;
+  color:#fff;
+  cursor:pointer;
+}
+ul.pagination li.brown{
+   color:#795548;
+}
+ul.pagination li.brown-background{
+   background:#795548;
+
+}
+ul.pagination li.brown:hover{
+ background:#795548;
+  color:#fff;
+  cursor:pointer;
+}
+ul.pagination li.disabled{
+  background:#eee;
+  color:#9e9e9e;
+  cursor: not-allowed;
+}

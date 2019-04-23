@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>分页</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.pagination.js"></script>
+<link rel="stylesheet" href="css/pagination.css"/>
+ </head>
+ <body>
+
+<div id="page1"></div>
+<div id="page2"></div>
+<div id="page3"></div>
+
+<script>
+  
+  $(function(){
+	  
+    var options={
+		    color:'pink',
+			totalPage:6,
+			showPrev:true,
+			showNext:true,
+			showHome:false,
+			showLast:false,
+			showInfo:false,
+			background:'pink-background',
+			result:function(page){
+	           console.log(page);
+			 }
+		};
+	$('#page1').pagination(options);
+
+	var options2={
+		    color:'cyan',
+			totalPage:50,
+			showPage:10,
+			background:'cyan-background',
+			result:function(page){
+	           console.log(page);
+			 }
+		};
+	$('#page2').pagination(options2);
+
+		var options3={
+		   
+			totalPage:10,
+			showPage:6,
+		
+			result:function(page){
+	           console.log(page);
+			 }
+		};
+	$('#page3').pagination(options3);
+    
+  })
+</script>
+</body>
+</html>
